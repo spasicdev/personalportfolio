@@ -1,0 +1,57 @@
+
+// ???????? HEADER START ???????????????
+.header {
+    background-color: $blackColor;
+    padding: 15px 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 90px;
+
+        .header_logo {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .header_logo_img_one {
+                height: 50px;
+            }
+        }
+
+        .header_navbar {
+
+            &_wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+
+                a{
+                    &:hover {
+                        background-color: $redColor;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+
+                &_item1 {
+                    background-color: $redColor;
+                    padding: 29px 15px;
+                }
+                &_item{
+                    padding: 29px 15px;
+                }
+            }
+        }
+    }
+}
+
+// ???????? HEADER END ???????????????
+
+h1{
+   text-align: center;
+    font-size: 50px;
+    padding: 20px 0;
+}
